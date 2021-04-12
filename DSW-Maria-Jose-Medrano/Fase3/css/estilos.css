@@ -1,0 +1,28 @@
+header{
+    background-color: greenyellow;
+    padding: 20px;
+}
+nav{
+    background-color: pink;
+    padding: 10px;
+
+}
+section{
+    float: left;
+    width: 70%;
+    background-color:pink;
+}
+aside{
+    float: left;
+    widows: 30%;
+    background-color: pink;
+}
+footer{
+    background-color:pink;
+    padding: 10px;
+}
+.moderador::after{
+    content:"";
+    display: block;
+    clear: both;
+}
